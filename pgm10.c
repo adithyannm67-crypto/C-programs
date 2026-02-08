@@ -22,7 +22,6 @@ int main()
                 a[j] = a[j + 1];
                 a[j + 1] = temp;
             }
-            printf("HAI");
     printf("THE SORTED ARRAY IS     \n");
     for (i = 0; i < n; i++)
         printf("%d ", a[i]);
