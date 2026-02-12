@@ -26,4 +26,5 @@ int main()
             if (rev == original)
                 printf("%d", mat[i][j]);
         }
+    return 0;
 }
