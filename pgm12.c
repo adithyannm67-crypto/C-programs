@@ -18,6 +18,7 @@ int main()
         scanf("%d", &b[i]);
 
     // INTERSECTION
+    
 
     for (i = 0; i < n1; i++)
         for (j = 0; j < n2; j++)
@@ -42,7 +43,7 @@ int main()
     for (i = 0; i < n2; i++)
     {
         int found = 0;
-        for (j = 0; j < n1; j++)
+        for (j = 0; j < count; j++)
             if (b[i] == aUNb[j])
             {
                 found = 1;
